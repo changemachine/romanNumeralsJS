@@ -55,7 +55,7 @@ var romanNum = function(number) {
 
         case (remainder >= 10):
             var x = Math.floor((number - (l * 50 + c * 100 + d * 500 + m * 1000)) / 10);
-            var remainder = (number - (l * 50)) % 10;
+            var remainder = (number - (l * 50 + c * 100 + d * 500 + m * 1000)) % 10;
             if (x > 3) {
                 var l_count = 1;
                 x -= 3;

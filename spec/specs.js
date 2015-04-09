@@ -16,7 +16,7 @@ describe("romanNum", function() {
     // });
     //
     it("returns L if the user enters 50", function() {
-        expect(romanNum("1974")).to.eql(["M", "C", "M", "L", "X", "X", "I", "V"]);
+        expect(romanNum("9")).to.eql(["M", "C", "M", "L", "X", "X", "I", "V"]);
     });
     //
     // it("returns MMM if the user enters 3000", function() {
